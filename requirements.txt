@@ -1,24 +1,7 @@
-import streamlit as st
-import mesa
-import random
-import numpy as np
-import pandas as pd
-import scipy.stats as stats
-from collections import deque
-import matplotlib.pyplot as plt
-from matplotlib.animation import FFMpegWriter
-from matplotlib.colors import ListedColormap
-from matplotlib.colors import LinearSegmentedColormap
-from matplotlib import rcParams
-import matplotlib.pyplot as plt
-import colorsys
-from matplotlib import colors as mcolors
-import tempfile
-import os
-import time
-from concurrent.futures import ThreadPoolExecutor
-import threading
-import itertools
-import heapq
-from scipy.stats import ttest_ind, ks_2samp
-import seaborn as sns
+streamlit==1.28.0
+mesa==1.1.1
+numpy==1.26.0
+pandas==2.1.1
+scipy==1.11.1
+matplotlib==3.8.0
+seaborn==0.12.2
